@@ -1,0 +1,31 @@
+.card {
+    height: 400px; /* Set a fixed height for the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between elements */
+    padding: 30px;
+    
+  }
+  
+  .card-media {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    height: 140px; /* Set a fixed height for the media area */
+  }
+  
+  .card-content {
+    flex-grow: 1; /* Allows content to take up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced evenly */
+  }
+  
+  .img{
+    margin-top: 100px;
+    padding: 20%;
+  }
+  body{
+    background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 11%, rgba(38,50,130,1) 51%);
+  }
